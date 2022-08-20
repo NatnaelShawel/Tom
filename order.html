@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md  navbar-dark  fixed-top  bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Logo.jpg" width="30" height="30" class="d-inline-block  align-top" alt="">
+                    Tomoca coffee
+                </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="allmenu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="order.html">Order</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="jumbotron jumbotron-other container-fluid">
+            <div class="container">
+                <h1 class="display-3 text-black">Ready to order? So are we!</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="p-2 pt-md-4 pb-md-3 mx-auto text-center">
+                <h1 class="display-4">Your details</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <h4 class="md-3">Your Address</h4>
+                    <form action="message.html" method="post">
+                        <div class="row">
+                            <div class="col-md-6 mb-3 form-group">
+                                <label for="firstName">First name</label>
+                              <input type="text" class="form-control" id="firstName" placeholder="Your first name" value="">
+
+                            </div>
+                            <div class="col-md-6 mb-3 form-group">
+                                <label for="lastName">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Your last name" value="">
+                            </div>
+                        </div>
+                        <div class="mb-3 form-group">
+                            <label for="email">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="text" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+
+                      <div class="mb-3 form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Piyasa street">
+
+                      </div> 
+                      
+                      <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-6 mb-3 form-group">
+                                <label for="zip">Zip</label>
+                                <input type="text" class="form-control" id="zip" placeholder="Zip code">
+
+                            </div>
+                            <div class="col-md-6 mb-3 form-group">
+                                <label for="city">City</label>
+                                <input type="text" class="form-control" id="city" placeholder="City">
+
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4 mb-3 form-group">
+                            <label for="state">City</label>
+                            <select class="custom-select w-100" id="state">
+                                <option value="">Select Cities...</option>
+                                <option>Not Applicable</option>
+                                <option>Addis Ababa</option>
+                                <option>Gondar</option>
+                                <option>Harar</option>
+                                <option>Dire Dawa</option>
+                                <option>Adama</option>
+                                <option>Mek'ele</option>
+                                <option>Jijiga</option>
+                                <option>Bahir Dar</option>
+                                <option>Dessie</option>
+                                <option>Debre Birhan</option>
+                                <option>Jimma</option>
+                                <option>Bishoftu</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-5 mb-3 form-group">
+                            <label for="country">Country</label>
+                            <select class="custom-select w-100" id="country">
+                                <option>Select Country </option>
+                                <option>Ethiopia</option>
+                                <option>Belgium</option>
+                                <option>France</option>
+                                <option>Germany</option>
+                                <option>United Kingdom</option>
+                                <option>United State</option>
+                            </select>
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                            <label for="remarks">Remarks</label>
+                            <textarea class="form-control" id="remarks" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="mb-5">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="saveShipping">
+                            <label class="custom-control-label" for="saveShipping">Remember my shipping information</label>
+
+                        </div>
+                      </div>
+                      <button class="btn btn-success btn-lg btn-block mb-3" type="submit">Place your order now!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
